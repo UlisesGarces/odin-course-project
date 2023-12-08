@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(fonts/Poppins/Poppins-Black.ttf);
+}
+@font-face {
+    font-family: "Augusta";
+    src: url(fonts/milestone/MilestoneFreeVersion-Script.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+html{
+    padding: 0;
+    margin: 0;
+}
+#Odin-Recipes{
+    font-family: "Augusta";
+    font-size: 4rem;
+}
+.container-1{
+    display: flex;
+    padding: 1.5rem;
+    font-family: "Poppins";
+    background-color: black;
+    color: rgb(255, 255, 255);
+    gap: 5rem;
+}
+.Right-Division{
+    padding: 5rem;
+}
+.Left-Division img{
+   width: 42rem;
+   height: 30rem;
+   border-radius: 3rem;
+}
+
+#od-text{
+    z-index: 1;
+}
+span{
+    color: rgb(255, 0, 0);
+}
